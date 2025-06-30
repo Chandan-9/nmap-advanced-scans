@@ -11,7 +11,7 @@ Advanced Nmap scanning on Metasploitable 2 using Kali Linux
 
 | Scan Type           | Command Example                      |
 |---------------------|--------------------------------------|
-| Ping Scan           | `nmap -sn 192.168.1.0/24`            |
+| Ping Scan           | `nmap -sn  target-ip`            |
 | Stealth Scan        | `nmap -sS target-ip`                 |
 | Full TCP Scan       | `nmap -sT -p- target-ip`             |
 | Aggressive Scan     | `nmap -A target-ip`                  |
